@@ -2,19 +2,19 @@
 
 产品功能：<br>
 
-常规简历信息添加<br>
-自定义部分外观颜色<br>
-导出为JPG图片<br>
-可以在左侧添加简历信息<br>
-也可以直接在中间的简历模板进行编辑<br>
-加了2个自定义简历内容板块<br>
+ - 常规简历信息添加<br>
+ - 自定义部分外观颜色<br>
+ - 导出为JPG图片<br>
+ - 可以在左侧添加简历信息<br>
+ - 也可以直接在中间的简历模板进行编辑<br>
+ - 加了2个自定义简历内容板块<br>
 
 产品文件：<br>
 
-index.php （首页）<br>
-template.php（简历预览）<br>
-js/script.js、js/html2canvas.min.js（导出为图片用的库）<br>
-css/style.css<br>
+ - index.php （首页）<br>
+ - template.php（简历预览）<br>
+ - js/script.js、js/html2canvas.min.js（导出为图片用的库）<br>
+ - css/style.css<br>
 
 非常简单，对于要自己使用的网站站长来说，部署简单，放你网站上直接就能用，对于用户来说也很直观，填表就行。
 
