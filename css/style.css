@@ -209,8 +209,8 @@ button:hover {
 }
 
 .footer a {
-  color: white; /* 字体颜色为白色 */
-  text-decoration: none; /* 取消下划线 */
+  color: white;
+  text-decoration: none;
 }
 
 /* 文字说明区域样式 */
