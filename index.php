@@ -6,8 +6,8 @@
     <title>小半简历 - 免费在线生成通用简历模板</title>
     <meta name="keywords" content="小半简历,简历生成器,简历模板" />
     <meta name="description" content="小半简历提供一个简约通用的在线免费简历模板生成器。" />
-    <link href="logo.png" rel="shortcut icon" />
-    <link href="logo.png" type="image/png" rel="apple-touch-icon" />    
+    <link href="https://xbxzsp.xiaobansc.com/xbsc/2024/08/20240822224540591.png" rel="shortcut icon" />
+    <link href="https://xbxzsp.xiaobansc.com/xbsc/2024/08/20240822224540591.png" type="image/png" rel="apple-touch-icon" />    
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js" defer></script>
     <script src="js/html2canvas.min.js" defer></script>
@@ -128,7 +128,7 @@
             </div>
 
             <div class="advertisement">
-                <img src="广告图片地址" alt="省钱猴">
+                <img src="图片地址" alt="图片">
             </div>
     </div>
 </div>
