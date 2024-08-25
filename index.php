@@ -6,17 +6,22 @@
     <title>小半简历 - 免费在线生成通用简历模板</title>
     <meta name="keywords" content="小半简历,简历生成器,简历模板" />
     <meta name="description" content="小半简历提供一个简约通用的在线免费简历模板生成器。" />
-    <link href="https://xbxzsp.xiaobansc.com/xbsc/2024/08/20240822224540591.png" rel="shortcut icon" />
-    <link href="https://xbxzsp.xiaobansc.com/xbsc/2024/08/20240822224540591.png" type="image/png" rel="apple-touch-icon" />    
+    <link href="logo.png" rel="shortcut icon" />
+    <link href="logo.png" type="image/png" rel="apple-touch-icon" />    
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js" defer></script>
     <script src="js/html2canvas.min.js" defer></script>
 </head>
 <body>
     <div class="topbar">
-        <h1>简约通用简历模板生成器</h1>
-        <nav>
+        <h1 class="desktop-title">简约通用简历模板生成器</h1>
+        <h1 class="mobile-title">简历生成器</h1> <!-- 手机端标题 -->
+        <nav class="desktop-nav">
             <a href="https://tool.xiaobansc.com/" target="_blank" rel="external nofollow noopener noreferrer">小半工具箱</a>
+            <a href="https://hao.jingxialai.com/" target="_blank" rel="external nofollow noopener noreferrer">Ai导航</a>
+        </nav>
+        <nav class="mobile-nav"> <!-- 手机端菜单 -->
+            <a href="https://tool.xiaobansc.com/" target="_blank" rel="external nofollow noopener noreferrer">工具箱</a>
             <a href="https://hao.jingxialai.com/" target="_blank" rel="external nofollow noopener noreferrer">Ai导航</a>
         </nav>
     </div>
@@ -90,6 +95,7 @@
 
         <div class="actions">
             <button id="save-jpg">保存为JPG图片</button>
+            <p id="mobile-warning" class="mobile-warning">如果不能保存是因为与浏览器不兼容</p>
 
             <div class="appearance-settings">
                 <h3>外观设置</h3>
