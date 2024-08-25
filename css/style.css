@@ -23,7 +23,7 @@ body {
 
 .sidebar {
     width: 25%;
-    padding: 20px; /* 减少填充以减少顶部空间 */
+    padding: 20px;
     background-color: #ffffff;
     border-right: 2px solid #e0e0e0;
     box-sizing: border-box;
@@ -209,7 +209,7 @@ button:hover {
 }
 
 .footer a {
-  color: white; /* 字体颜色为白色 */
+  color: white;
   text-decoration: none; /* 取消下划线 */
 }
 
@@ -251,7 +251,7 @@ button:hover {
     border-radius: 5px;
     text-align: left;
     width: 100%; /* 板块宽度占满父容器 */
-    box-sizing: border-box; /* 确保宽度计算包括内边距和边框 */
+    box-sizing: border-box; /* 确保宽度包括内边距和边框 */
 }
 
 .appearance-settings h3 {
