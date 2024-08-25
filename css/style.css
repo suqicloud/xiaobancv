@@ -209,8 +209,8 @@ button:hover {
 }
 
 .footer a {
-  color: white;
-  text-decoration: none;
+  color: white; /* 字体颜色为白色 */
+  text-decoration: none; /* 取消下划线 */
 }
 
 /* 文字说明区域样式 */
@@ -283,4 +283,73 @@ button:hover {
 
 .appearance-settings button:hover {
     background-color: #0056b3;
+}
+
+/* 手机访问的样式 */
+@media (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column; /* 改为纵向布局 */
+        align-items: center; /* 居中对齐 */
+    }
+
+    .sidebar {
+        width: 100%;
+        border-right: none; /* 移除右边框 */
+        border-bottom: 2px solid #e0e0e0;
+        max-height: none; /* 移除最大高度限制 */
+    }
+
+    .preview {
+        width: 100%;
+        border-right: none; /* 移除右边框 */
+        border-bottom: 2px solid #e0e0e0;
+        min-height: auto; /* 自动适应高度 */
+    }
+
+    .actions {
+        width: 100%;
+        border-bottom: none; /* 移除底边框 */
+    }
+}
+
+
+/* 默认隐藏手机端标题和菜单 */
+.mobile-title,
+.mobile-nav {
+    display: none;
+}
+
+/* 显示手机端标题和菜单 */
+@media screen and (max-width: 768px) {
+    .desktop-title,
+    .desktop-nav {
+        display: none; /* 隐藏桌面端标题和菜单 */
+    }
+
+    .mobile-title,
+    .mobile-nav {
+        display: block; /* 显示手机端标题和菜单 */
+    }
+
+    .topbar {
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+
+/* 默认隐藏手机端的提示文字 */
+.mobile-warning {
+    display: none;
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* 显示手机端的提示文字 */
+@media screen and (max-width: 768px) {
+    .mobile-warning {
+        display: block;
+    }
 }
